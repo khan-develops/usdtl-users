@@ -40,8 +40,9 @@ export class UserService {
               if (err) {
                 throw new NotFoundException(err.toString())
               }
-              if (isMember)
+              if (isMember) {
                 group = groupName
+              }
             });
           })
         });

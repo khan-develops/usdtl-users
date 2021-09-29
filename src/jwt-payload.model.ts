@@ -5,5 +5,5 @@ export interface JwtPayload {
   firstName: string;
   lastName: string;
   fullName: string;
-  description: string;
+  description: string; 
 }
